@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenCV-Color", "OpenCV-Color\OpenCV-Color.pyproj", "{596AD2F3-BB07-45B8-968D-347C6A00FA65}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenCV-Test", "OpenCV-Test\OpenCV-Test.pyproj", "{02819B81-1137-473B-8EC9-6882C3F28C84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596AD2F3-BB07-45B8-968D-347C6A00FA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596AD2F3-BB07-45B8-968D-347C6A00FA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02819B81-1137-473B-8EC9-6882C3F28C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02819B81-1137-473B-8EC9-6882C3F28C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5FF33FF-B5D4-468F-AA8B-8CE4DEB9F4CC}
+	EndGlobalSection
+EndGlobal
