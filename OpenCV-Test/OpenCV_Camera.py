@@ -14,3 +14,5 @@ while (True):
         break
 cap.release()  # 关闭视频文件或设备
 cv2.destroyAllWindows()
+
+#Test
