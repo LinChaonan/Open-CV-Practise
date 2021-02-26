@@ -4,7 +4,6 @@ import colorList
  
 filename='1.jpg'
  
-#处理图片
 def get_color(frame):
     print('go in get_color')
     hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
