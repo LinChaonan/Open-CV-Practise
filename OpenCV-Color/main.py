@@ -2,7 +2,7 @@ import  cv2
 import numpy as np
 import colorList
  
-filename='1.jpg'
+filename='/home/lcn/OpenCV/Open-CV-Practise/OpenCV-Color/1.jpg'
  
 def get_color(frame):
     print('go in get_color')
@@ -12,7 +12,7 @@ def get_color(frame):
     color_dict = colorList.getColorList()
     for d in color_dict:
         mask = cv2.inRange(hsv,color_dict[d][0],color_dict[d][1])
-        cv2.imwrite(d+'.jpg',mask)
+        cv2.imwrite('/home/lcn/OpenCV/Open-CV-Practise/OpenCV-Color/'+str(d)+'.jpg',mask)
         binary = cv2.threshold(mask, 127, 255, cv2.THRESH_BINARY)[1]
         binary = cv2.dilate(binary,None,iterations=2)
         cnts, hiera = cv2.findContours(binary.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
